@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    background: #000;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.slider__content {
+    display: flex;
+    justify-content: center;
+    width: 300%;
+    height: 150px;
+    padding: 10px;
+    background: crimson;
+    transition: all .3s ease;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background: lightgreen;
+    margin: 1em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.foto {
+    height: 100%;
+    margin: 1px;
+    flex-basis: 100%;
+}
+
+.foto1 {
+    background: orange;
+}
+
+.foto2 {
+    background: green;
+}
+
+.foto3 {
+    background: yellow;
+}
